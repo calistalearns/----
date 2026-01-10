@@ -3,7 +3,7 @@
 //主要确实是递归想法
 void she(int arr[][1024],int x,int y,int size)
 {
-    if(size==1)return;
+    if(size==1)return ;
     int half=size/2;
     for(int i=x;i<x+half;i++)
     {
